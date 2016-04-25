@@ -6,7 +6,7 @@
 \alias{unserialize_pb}
 \title{Serialize to Protocol Buffers}
 \usage{
-serialize_pb(object, connection = NULL)
+serialize_pb(object, connection = NULL, skip_native = FALSE)
 
 unserialize_pb(msg)
 }
@@ -15,12 +15,17 @@ unserialize_pb(msg)
 
 \item{connection}{a connection, file, or \code{NULL} for a raw vector}
 
+\item{skip_native}{do not serialize 'native' (non-data) R objects. Setting to \code{TRUE}
+will only serialize \emph{data} types (numeric, boolean, string, raw, list). The default
+behavior is to fall back on base R \code{\link{serialize}} for non-data objects.}
+
 \item{msg}{raw vector with the serialized \code{rexp.proto} message}
 }
 \description{
 Serializes R objects to a general purpose protobuf message. It uses the same
-\code{rexp.proto} descriptor and mapping between R objects and protobuf messages
-as RHIPE and the \code{RProtoBuf} package.
+\href{https://github.com/jeroenooms/protolite/blob/master/src/rexp.proto}{rexp.proto}
+descriptor and mapping between R objects and protobuf messages as RHIPE and the
+\link[RProtoBuf:serialize_pb]{RProtoBuf} package.
 }
 \details{
 The \code{serialize_pb} and \code{unserialize_pb} reimplement the identically
