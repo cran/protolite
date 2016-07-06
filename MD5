@@ -1,13 +1,13 @@
-12b5cd9201770e4ee45c068d6592e9df *DESCRIPTION
+c159c36ae16268df672bd4d2fa5b8da1 *DESCRIPTION
 91443a13b3d89ea22bfa1222461b0111 *LICENSE
 0201ee74ee8b3c9d5c5b03290fe98f98 *NAMESPACE
-96954ceb412de4f71e5bd7930295e2a4 *NEWS
+4b2a48a2b29909bb3666c05a04f2886f *NEWS
 bf2df615e3a6448935217aafd0ed20a2 *R/RcppExports.R
 82583b50db96f6a3a3349543b60e6baa *R/serialize_pb.R
 6fe7da707b30769d3e5ac67c581995d8 *README.md
-3ff1a68121403863a92b1a72f990a488 *configure
+e0c6bc854d40e93bc6ffeb0c0f4ac394 *configure
 e0ccaca5a683c9495abe9d2a0c9361e4 *man/serialize_pb.Rd
-111e1efb50ff675feb507ea42a24b300 *src/Makevars.in
+1170b68503e839c3cf89c6e490c8af3e *src/Makevars.in
 5c7f2603ef3f25a2aa16e11e9ef7d83a *src/Makevars.win
 839f7765ce01607fee2b7066cc6794cb *src/RcppExports.cpp
 18361695062ae45db89e6da3ec9e0aba *src/rexp.proto
