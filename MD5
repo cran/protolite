@@ -1,7 +1,7 @@
-966ec2cec40a6f31f86e3caa3326a8b1 *DESCRIPTION
+5aeb7ba5ae7a3072e943a88cb4bd49b7 *DESCRIPTION
 1ee0683cce6d3479250337954c075d63 *LICENSE
 bfa2ae3f537c8485ff9421c00a86e9b8 *NAMESPACE
-bbc13ba40880b0687b601979ad907a7f *NEWS
+f026d3aef0d820812d9b149a13f7c0ea *NEWS
 6d9eccc3cd160997d4d118b5e63ef167 *R/RcppExports.R
 095f84f08dabc7111cad4465fab2daf4 *R/geobuf.R
 b0af84b6dc75196b2c0e2bedf15b11bd *R/serialize_pb.R
@@ -12,7 +12,7 @@ ab8dd881e0f0290bc65eb1794c2f8191 *configure
 441cc8e0c560848d0e9727b19ea7409c *man/geobuf.Rd
 0c34f1904e6c780c5e0b279b568fcc82 *man/serialize_pb.Rd
 cbd2af643af8825ff48809e162ead0fb *src/Makevars.in
-184869b46819743d9b535a8ff762c9a1 *src/Makevars.win
+d60a3d237914044d6734753430245983 *src/Makevars.win
 2a180226f7c830b8cf798de794255415 *src/RcppExports.cpp
 e77b16174741e37927c9b5b9b5af44f1 *src/geobuf.cpp
 65eef9807c3e130b8bc1c09e36bda872 *src/geobuf.pb.cc
@@ -28,4 +28,4 @@ c40a55bcea44065b136c853cae787c1b *src/unserialize.cpp
 b1838114b76481b30042831e0223db19 *tests/testthat/test-serialize.R
 e81a1b6429a9e06f77a240d8dcd92df2 *tests/testthat/test.json
 bbdd934dd6ed06ac3a122ce1df3d9a8c *tests/testthat/test.pb
-d5a5994f600faa7ad9e6cc589a15ff91 *tools/winlibs.R
+8a91a82dff044d44fcdd2eedc5bb4132 *tools/winlibs.R
