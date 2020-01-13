@@ -1,14 +1,14 @@
-dc85e82d4f47e1e57ffbb44f96b947fd *DESCRIPTION
-1ee0683cce6d3479250337954c075d63 *LICENSE
+552829cb9b6289b47ebbb20e2aa10dd4 *DESCRIPTION
+27b6128fe44dac890bf5c9dfce3a744c *LICENSE
 6ca4129ddfc35f3495cf2e3817fb06e7 *NAMESPACE
-aa0f6346916b0f788b9b5afbd841cf45 *NEWS
+ece8402dfbcd7f69cd2941e51f9eb01b *NEWS
 02249098206183b13030862849407133 *R/RcppExports.R
 a5a242b435a1e22c3799e318f9de9108 *R/geobuf.R
 05f94ecb6ba7308983041c5e67e40316 *R/mvt.R
 b0af84b6dc75196b2c0e2bedf15b11bd *R/serialize_pb.R
 429ea28f6b0861c68815264d581ac742 *R/startup.R
-88b28f4edd44a8b049b5d877c36af78c *cleanup
-b92e442695e9c0285de8fbf32a7a157e *configure
+101c65ceba3e4ca556c7f24847cb45b7 *cleanup
+9450241d5a1931e58689e5126880b4ad *configure
 b932e98e176204742c6eb8564bb9f339 *inst/WORDLIST
 441cc8e0c560848d0e9727b19ea7409c *man/geobuf.Rd
 85152e9d54c8dc6e206be10c76aa08ee *man/mapbox.Rd
@@ -16,7 +16,7 @@ b932e98e176204742c6eb8564bb9f339 *inst/WORDLIST
 cbd2af643af8825ff48809e162ead0fb *src/Makevars.in
 547fde2ec0cd43eabdc13b86a0294f8c *src/Makevars.win
 788ca9fab2cfea4658412e008e780c64 *src/RcppExports.cpp
-e77b16174741e37927c9b5b9b5af44f1 *src/geobuf.cpp
+dcfa434f7a4f3b56d48a7bcdb0df4153 *src/geobuf.cpp
 65eef9807c3e130b8bc1c09e36bda872 *src/geobuf.pb.cc
 d761c29741bff36a89c4f8d448fdf258 *src/geobuf.proto
 e583629856f55e57dae3bde1ac49769a *src/init.cpp
@@ -24,7 +24,7 @@ e583629856f55e57dae3bde1ac49769a *src/init.cpp
 3de19605b426442daccb2c029c5e2ab7 *src/mvt.proto
 65eef9807c3e130b8bc1c09e36bda872 *src/rexp.pb.cc
 df470ccbb0c7f254d35594a0f630ef6b *src/rexp.proto
-1fa609fc29ad2f8e026cf61f2540ea37 *src/serialize.cpp
+8fc44d41bf416f2021268a06b3039ec8 *src/serialize.cpp
 44a4cb89b16ce669490182f03e0abb6d *src/ungeobuf.cpp
 9dc03044ae0034d6872c507254db1b70 *src/unmvt.cpp
 c40a55bcea44065b136c853cae787c1b *src/unserialize.cpp

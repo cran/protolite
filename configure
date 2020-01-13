@@ -1,5 +1,5 @@
-#!/bin/bash
-# Anticonf (tm) script by Jeroen Ooms (2017)
+#!/usr/bin/env bash
+# Anticonf (tm) script by Jeroen Ooms (2020)
 # This script will query 'pkg-config' for the required cflags and ldflags.
 # If pkg-config is unavailable or does not find the library, try setting
 # INCLUDE_DIR and LIB_DIR manually via e.g:
@@ -45,16 +45,15 @@ fi
 
 # Find compiler
 CXX11=$(${R_HOME}/bin/R CMD config CXX11)
-CXXCPP="$CXX11 -std=gnu++11 -E"
+CXX11STD=$(${R_HOME}/bin/R CMD config CXX11STD)
 CPPFLAGS=$(${R_HOME}/bin/R CMD config CPPFLAGS)
 
 # For debugging
-echo "Using: $CXXCPP"
 echo "Using PKG_CFLAGS=$PKG_CFLAGS"
 echo "Using PKG_LIBS=$PKG_LIBS"
 
 # Test configuration
-echo "#include $PKG_TEST_HEADER" | ${CXXCPP} ${CPPFLAGS} ${PKG_CFLAGS} -xc++ - >/dev/null
+echo "#include $PKG_TEST_HEADER" | ${CXX11} ${CXX11STD} -E ${CPPFLAGS} ${PKG_CFLAGS} -xc++ - >/dev/null
 
 # Customize the error
 if [ $? -ne 0 ]; then
@@ -70,6 +69,11 @@ if [ $? -ne 0 ]; then
   echo "R CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'"
   echo "--------------------------------------------------------------------"
   exit 1;
+fi
+
+# Fix for deprecated declarations
+if pkg-config ${PKG_CONFIG_NAME} --atleast-version 3.6; then
+PKG_CFLAGS="$PKG_CFLAGS -DUSENEWAPI"
 fi
 
 # Write to Makevars
