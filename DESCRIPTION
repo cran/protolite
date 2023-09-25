@@ -10,7 +10,7 @@ Description: Pure C++ implementations for reading and writing several common dat
     hence the entire serialization is optimized at compile time. The 'RProtoBuf' 
     package on the other hand uses the protobuf runtime library to provide a general-
     purpose toolkit for reading and writing arbitrary protocol-buffer data in R.
-Version: 2.2.0
+Version: 2.3.0
 License: MIT + file LICENSE
 URL: https://github.com/jeroen/protolite
         https://jeroen.r-universe.dev/protolite
@@ -23,6 +23,6 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.2.1
 NeedsCompilation: yes
-Packaged: 2023-01-29 22:00:18 UTC; jeroen
+Packaged: 2023-09-25 17:17:23 UTC; jeroen
 Repository: CRAN
-Date/Publication: 2023-01-29 22:40:03 UTC
+Date/Publication: 2023-09-25 20:10:02 UTC
