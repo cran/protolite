@@ -1,8 +1,8 @@
 Package: protolite
 Type: Package
 Title: Highly Optimized Protocol Buffer Serializers
-Author: Jeroen Ooms
-Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
+Authors@R: person("Jeroen", "Ooms", role = c("aut", "cre"), email = "jeroenooms@gmail.com",
+    comment = c(ORCID = "0000-0002-4035-0289"))
 Description: Pure C++ implementations for reading and writing several common data 
     formats based on Google protocol-buffers. Currently supports 'rexp.proto' for 
     serialized R objects, 'geobuf.proto' for binary geojson, and 'mvt.proto' for 
@@ -10,7 +10,7 @@ Description: Pure C++ implementations for reading and writing several common dat
     hence the entire serialization is optimized at compile time. The 'RProtoBuf' 
     package on the other hand uses the protobuf runtime library to provide a general-
     purpose toolkit for reading and writing arbitrary protocol-buffer data in R.
-Version: 2.3.0
+Version: 2.3.1
 License: MIT + file LICENSE
 URL: https://github.com/jeroen/protolite
         https://jeroen.r-universe.dev/protolite
@@ -23,6 +23,8 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.2.1
 NeedsCompilation: yes
-Packaged: 2023-09-25 17:17:23 UTC; jeroen
+Packaged: 2024-10-03 14:13:06 UTC; jeroen
+Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)
+Maintainer: Jeroen Ooms <jeroenooms@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-09-25 20:10:02 UTC
+Date/Publication: 2024-10-04 11:50:02 UTC
