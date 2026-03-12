@@ -1,7 +1,7 @@
-be87525d9cf5532e0a94dc3b9f5cae78 *DESCRIPTION
+a817edb0e1fc5fbdb858713f685232d5 *DESCRIPTION
 27b6128fe44dac890bf5c9dfce3a744c *LICENSE
 6ca4129ddfc35f3495cf2e3817fb06e7 *NAMESPACE
-8f4d9d4d7bc0a1524884ea5904705111 *NEWS
+a3bb19be9233ad8e866cb4e0488fbfea *NEWS
 02249098206183b13030862849407133 *R/RcppExports.R
 a5a242b435a1e22c3799e318f9de9108 *R/geobuf.R
 ab8e5d45329e5804a1f3ba50565b3616 *R/mvt.R
@@ -14,7 +14,7 @@ b932e98e176204742c6eb8564bb9f339 *inst/WORDLIST
 85152e9d54c8dc6e206be10c76aa08ee *man/mapbox.Rd
 0c34f1904e6c780c5e0b279b568fcc82 *man/serialize_pb.Rd
 9d44f73258d8c50e1b13c06dbd807e9c *src/Makevars.in
-d566dac9e80a848750a36ede60761b3f *src/Makevars.win
+dd9d16d2b8f1e2a714c9aa74bb78c1fa *src/Makevars.win
 46bc80968403cc0295c955d060c7dd50 *src/RcppExports.cpp
 dcfa434f7a4f3b56d48a7bcdb0df4153 *src/geobuf.cpp
 65eef9807c3e130b8bc1c09e36bda872 *src/geobuf.pb.cc
